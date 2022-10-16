@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Imágenes en html</title>
+
+<link href="css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<header>
+  <h1>Formularios</h1>
+</header>
+	  <nav>
+<ul class="menu1">
+<li><a href="Index.html">Inicio</a></li>
+<li><a href="Práctica 2 Listas.html">Listas</a></li>
+<li><a href="Práctica 3 Enlaces.html">Enlaces</a></li>
+<li><a href="Práctica 4 tablas.html">Tablas</a></li>
+<li><a href="Práctica 5 imágenes.html">Imágenes</a></li>
+	<li><a href="Práctica 1 Formatos.html">Formatos</a></li>
+<li><a href="Práctica 6 audio.html">Audio</a></li>
+<li><a href="Práctica 7 vídeo.html">Vídeo</a></li>
+<li><a href="Práctica 8 formularios.html">Formularios</a></li>
+</ul>
+</nav>
+	
+<main>
+  <section>
+    <h2 id="m2">Formulario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque porro voluptates ipsum numquam eos ipsa ad reiciendis eaque, exercitationem delectus mollitia nemo eum architecto. Veniam commodi iste ab placeat praesentium nobis necessitatibus et in perspiciatis aut minus aliquam qui quasi, inventore, dolore nemo iusto. Aliquam vitae, cum hic officiis id ipsam tempore neque </p>
+    <form id="form1" name="form1" method="get">
+      <label for="nombre2">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+		<br><br>
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+		<br> <br>
+      <input type="submit" name="Boton1" id="Boton1" formaction="procesamiento.html" value="Enviar">
+      &nbsp;<br>
+    </form>
+	</section>
+  <section>
+    <h2 id="m">Formulario Checkbox</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque porro voluptates ipsum numquam eos ipsa ad reiciendis eaque, exercitationem delectus mollitia nemo eum architecto. Veniam commodi iste ab placeat praesentium nobis necessitatibus et in perspiciatis aut minus aliquam qui quasi, inventore, dolore nemo iusto. Aliquam vitae, cum hic officiis id ipsam tempore neque </p>
+	  <form id="form2" name="form2" method="get">
+	    <label for="select">¿De qué país nos visitas?</label>
+	    <select name="pais" id="pais">
+          <option value="mx">México</option>
+          <option value="us">Estados Unidos</option>
+          <option value="es">España</option>
+          <option value="ar">Argentina</option>
+          <option value="co">Colombia</option>
+          <option value="it">Italia</option>
+        </select>
+		  <br><br>
+	    <label>Género:</label>
+		  <p>
+		    <label>
+		      <input type="radio" name="Genero" value="hombre" id="Genero_0">
+		      Hombre</label>
+		    <br>
+		    <label>
+		      <input type="radio" name="Genero" value="mujer" id="Genero_1">
+		      Mujer</label>
+		    <br><br><br>
+	    </p>
+		  <label>¿Cuál será tu residencia durante tu estancia?</label>
+	    <table width="200">
+		    <tr>
+		      <td><label>
+		        <input type="checkbox" name="Residencia tempora" value="hotel" id="Residenciatempora_0">
+		        Hotel</label></td>
+	        </tr>
+		    <tr>
+		      <td><label>
+		        <input type="checkbox" name="Residencia tempora" value="particular" id="Residenciatempora_1">
+Domicio de conocidos</label></td>
+	        </tr>
+		    <tr>
+		      <td><label>
+		        <input type="checkbox" name="Residencia tempora" value="airbnb" id="Residenciatempora_2">
+		        Airbnb</label></td>
+	        </tr>
+	    </table>
+<br><br>
+	    <input type="submit" name="submit" id="submit" formaction="procesamiento.html" value="Enviar">
+        &nbsp;
+	  </form>
+  </section>
+  <section>
+    <h2 id="m3">Formulario de contacto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque porro voluptates ipsum numquam eos ipsa ad reiciendis eaque, exercitationem delectus mollitia nemo eum architecto. Veniam commodi iste ab placeat praesentium nobis necessitatibus et in perspiciatis aut minus aliquam qui quasi, inventore, dolore nemo iusto. Aliquam vitae, cum hic officiis id ipsam tempore neque </p>
+    <form id="form3" name="form3" method="post">
+      <label for="textfield">Nombre:</label>
+      <input name="nombre" type="text" required="required" id="nombre" form="form3" placeholder="Escribe tu nombre">
+      
+      <label for="email">Email:</label>
+      <input name="email" type="email" required="required" id="email" form="form3">
+      <label for="mensaje">Mensaje:</label>
+      <textarea name="mensaje" rows="6" maxlength="150" required="required" id="mensaje" form="form3" placeholder="Escribe tu mensaje.."></textarea>
+		<br> 
+		<br>
+      <input name="boton3" type="submit" id="boton3" formaction="procesamiento.html" value="Enviar">
+            &nbsp;
+    </form>
+</section>
+  <section>
+    <h2 id="m4">Formulario personalizado</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque porro voluptates ipsum numquam eos ipsa ad reiciendis eaque, exercitationem delectus mollitia nemo eum architecto. Veniam commodi iste ab placeat praesentium nobis necessitatibus et in perspiciatis aut minus aliquam qui quasi, inventore, dolore nemo iusto. Aliquam vitae, cum hic officiis id ipsam tempore neque </p>
+	   <form id="form4" name="form2" method="get">
+	    
+	    <label for="fname">Nombre: </label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Apellido:</label><br>
+  <input type="text" id="lname" name="lname" ><br><br>
+
+		   <label for="birthday">¿Qué día es tu cumpleaños?</label><br>
+  <input type="date" id="cumple" name="cumple">
+	  <br><br>
+		   
+		   <label for="appt">¿A qué hora será tu fiesta?</label>
+  <input type="time" id="appt" name="appt">
+		   <br><br>
+		   <label for="myfile" data_temp_dwid="1">Envía tu foto favorita:</label>
+		   <input type="file" id="myfile" name="myfile">
+		   <br><br>
+		   
+		   <label for="quantity">¿Cuántos amigos quieres invitar?</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+		   
+		   
+	     <br><br>
+	    <input type="submit" name="submit" id="submit" formaction="procesamiento.html" value="Enviar">
+       
+		   
+		   
+	  </form>
+	  
+  </section>
+	  
+
+	
+	</main>
+	<footer>
+	  <h6>Elaborado por Evelyn Palomino</h6>
+</footer>
+  
+</body>
+</html>
